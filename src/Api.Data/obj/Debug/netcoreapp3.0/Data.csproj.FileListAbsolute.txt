@@ -1,0 +1,13 @@
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Data.deps.json
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Data.dll
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Data.pdb
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.csprojAssemblyReference.cache
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfoInputs.cache
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.AssemblyInfo.cs
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.dll
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.pdb
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.json
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Data.runtimeconfig.dev.json
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Domain.dll
+C:\apinetcore\src\Api.Data\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\apinetcore\src\Api.Data\obj\Debug\netcoreapp3.0\Data.csproj.CopyComplete

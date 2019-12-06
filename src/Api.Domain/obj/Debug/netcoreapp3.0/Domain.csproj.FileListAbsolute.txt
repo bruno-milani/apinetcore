@@ -1,0 +1,8 @@
+C:\apinetcore\src\Api.Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+C:\apinetcore\src\Api.Domain\bin\Debug\netcoreapp3.0\Domain.dll
+C:\apinetcore\src\Api.Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\apinetcore\src\Api.Domain\obj\Debug\netcoreapp3.0\Domain.csprojAssemblyReference.cache
+C:\apinetcore\src\Api.Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+C:\apinetcore\src\Api.Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+C:\apinetcore\src\Api.Domain\obj\Debug\netcoreapp3.0\Domain.dll
+C:\apinetcore\src\Api.Domain\obj\Debug\netcoreapp3.0\Domain.pdb
