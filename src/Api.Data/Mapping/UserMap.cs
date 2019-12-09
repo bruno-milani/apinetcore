@@ -21,6 +21,13 @@ namespace Api.Data.Mapping
 
             builder.Property(u => u.Email)
                    .HasMaxLength(100);
+
+            builder.Property(u => u.Password)
+                    .IsRequired()
+                    .HasMaxLength(50);
+
+            builder.Property(u => u.DateOfBird);
+
         }
     }
 }

@@ -37,7 +37,6 @@ C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
-C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -46,3 +45,10 @@ C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.IdentityMode
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\apinetcore\src\Api.Application\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

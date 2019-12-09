@@ -66,7 +66,7 @@ namespace Api.Data.Repository
         {
             try
             {
-                return await _dataset.FirstOrDefaultAsync(p => p.Equals(id));
+                return await _dataset.FirstOrDefaultAsync(p => p.Id == id);
             }
             catch (Exception ex)
             {
