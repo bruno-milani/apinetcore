@@ -17,42 +17,10 @@ namespace Data.Migrations
                 .HasAnnotation("ProductVersion", "3.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Api.Domain.Entities.AccountEntity", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
-
-                    b.Property<string>("AccountName")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<string>("AccountNumber")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<DateTime?>("CreateAt")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Status")
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
-
-                    b.Property<DateTime?>("UpdateAt")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<double>("ValueBalance")
-                        .HasColumnType("double");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AccountEntity");
-                });
-
             modelBuilder.Entity("Api.Domain.Entities.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
-
-                    b.Property<Guid?>("AccountId")
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime?>("CreateAt")
@@ -80,19 +48,22 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountId");
-
                     b.HasIndex("Email")
                         .IsUnique();
 
                     b.ToTable("User");
-                });
 
-            modelBuilder.Entity("Api.Domain.Entities.UserEntity", b =>
-                {
-                    b.HasOne("Api.Domain.Entities.AccountEntity", "Account")
-                        .WithMany()
-                        .HasForeignKey("AccountId");
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("70d29139-6de9-484f-b6d0-082dd70dc9c5"),
+                            CreateAt = new DateTime(2019, 12, 16, 22, 31, 17, 427, DateTimeKind.Utc).AddTicks(9022),
+                            DateOfBird = new DateTime(1996, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "admin@api.com",
+                            Name = "AdminAPI",
+                            Password = "admin123",
+                            UpdateAt = new DateTime(2019, 12, 16, 22, 31, 17, 428, DateTimeKind.Utc).AddTicks(294)
+                        });
                 });
 #pragma warning restore 612, 618
         }
